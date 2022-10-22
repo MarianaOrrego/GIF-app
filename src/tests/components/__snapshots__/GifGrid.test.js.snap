@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Puebas en el componente GifGrid Debe mostrar el componente correctamente 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn animate__delay-1s"
+  >
+    Perros
+  </h3>
+  <p
+    className="animate__animated animate__flash animate__delay-1s"
+  >
+    Loading
+  </p>
+  <div
+    className="cardgrid"
+  />
+</Fragment>
+`;
