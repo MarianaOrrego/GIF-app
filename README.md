@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Gif app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Base project created for React.js practice. Its purpose is to display gifs related to the term entered by the user. It has a rendering limit of 10 for each search.
 
-## Available Scripts
+It has a responsive design, attempting to look good on as many devices as possible.
 
-In the project directory, you can run:
+Level: basic
 
-### `npm start`
+![Screenshot 2024-02-07 at 12 56 00](https://github.com/MarianaOrrego/GIF-app/assets/83648336/dc815dad-5025-49bb-9d04-88ac367be575)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologies
+- React.js
+- CSS
+- create-react-app template
+- API Giphy
 
-### `npm test`
+## The Process
+One of the first applications developed using React. Knowledge was acquired on API consumption, component handling, creation of custom hooks, rendering of information (gifs in this case), and creation of styles to ensure a responsive page. Knowledge on best practices was reinforced.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What I learned 
+- API consumption
+- Clean code
+- Component handling
+- Custom hooks creation
 
-### `npm run build`
+## Overall Growth
+This project helped me understand API consumption, component handling, best practices, and project organization to make the code more programmer-friendly. On the other hand, creating custom hooks to develop tasks was a significant aspect of the project's development. In a professional context, the use of custom hooks is widely employed in React projects.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How can it be improved?
+- Improve the styles
+- Add more functionalities like pagination, rendering more elements per search
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Link
+https://lookingforgif.netlify.app/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Running the project
+To run the project in your local environment, follow these steps:
+1. Clone the repository to your local machine
+2. Run `npm install` or `yarn` in the project directory to install the required dependencies
+3. Run `npm run start` or `yarn start` to get the project started
+4. Open the address shown in your console in your web browser to view the app
